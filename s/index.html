@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <style>
+        /* Reset dan pengaturan dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #e0e0e0;
+        }
+
+        .embed-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 50%;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .credit, .contact-info {
+            font-size: 0.9rem;
+            color: #ddd;
+            margin-top: 15px;
+        }
+
+        .credit a, .contact-info a {
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+
+        .credit a:hover, .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Check Your Internet Speed</h1>
+        <p>Use this tool to measure your internet speed quickly and accurately.</p>
+        
+        <div class="embed-container">
+            <!-- OST Widget code start -->
+            <iframe src="https://openspeedtest.com/speedtest" allowfullscreen></iframe>
+            <!-- OST Widget code end -->
+        </div>
+        
+        <div class="credit">Provided by <a href="https://openspeedtest.com" target="_blank">OpenSpeedtest.com</a></div>
+        
+        <div class="credit">&copy;2024 <a href="https://bimahabibnugraha.my.id" target="_blank">Bima Habib Nugraha. </a>All rights reserved.</div>
+    </div>
+</body>
+</html>
